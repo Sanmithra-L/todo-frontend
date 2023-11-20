@@ -1,0 +1,50 @@
+ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the navbar container */
+  .navbar {
+    background-color: #8d028a; /* Background color */
+    overflow: hidden;
+    height: 56px;
+  }
+  
+  /* Style the navbar list */
+  .navbar ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    padding: 5px 0px;
+  }
+  
+  /* Style the navbar list items (links) */
+  .navbar li {
+    float:right;/* Make the list items appear horizontally */
+    font-size: 50px;
+  }
+  
+  /* Style the navbar links */
+  .navbar a {
+    display: block; /* Display links as block elements for spacing */
+    color: white; /* Text color */
+    text-align: center; /* Center-align the text */
+    padding: 14px 50px; /* Add padding for spacing */
+    text-decoration: none; /* Remove underlines */
+    border-radius: 25px;
+    font-size: 18px;
+  }
+  
+  /* Change link color on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    font-size: 22px;
+  }
+  .navhead {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    float: left;
+    display: block; /* Display links as block elements for spacing */
+    text-align: center; /* Center-align the text */
+    padding: 10px 150px;
+  }
